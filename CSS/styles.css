@@ -6,6 +6,7 @@
     --color-focus-hover: #404BBF;
     --color-logo-footer: #F4F4FD;
     --color-text-footer: #E7E9FC;
+    --color-logo-filter: #F4F4FD;
 }
 
 /* Body */
@@ -18,7 +19,7 @@ body {
     letter-spacing: 0.02em;
     outline: none;
     min-width: 480px;
-    color: var(--color-text-primary)
+    color: var(--color-text-primary);
 }
 
 .link {
@@ -26,7 +27,7 @@ body {
     color: inherit;
 }
 
-button {
+.btn {
     cursor: pointer;
 }
 
@@ -36,6 +37,19 @@ button {
     margin: 0;
     border: 0;
 
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 /* Header */
@@ -55,7 +69,7 @@ button {
 
 .logo-nav:hover,
 .logo-nav:focus {
-    color: var(--color-focus-hover)
+    color: var(--color-focus-hover);
 }
 
 .studio-nav {
@@ -67,7 +81,7 @@ button {
 
 .studio-nav:hover,
 .studio-nav:focus {
-    color: var(--color-focus-hover)
+    color: var(--color-focus-hover);
 }
 
 .portfolio-nav {
@@ -78,7 +92,7 @@ button {
 
 .portfolio-nav:hover,
 .portfolio-nav:focus {
-    color: var(--color-focus-hover)
+    color: var(--color-focus-hover);
 }
 
 .contacts-nav {
@@ -89,7 +103,7 @@ button {
 
 .contacts-nav:hover,
 .contacts-nav:focus {
-    color: var(--color-focus-hover)
+    color: var(--color-focus-hover);
 }
 
 /* top line contacts */
@@ -101,7 +115,7 @@ button {
 
 .mailto-header:hover,
 .mailto-header:focus {
-    color: var(--color-focus-hover)
+    color: var(--color-focus-hover);
 }
 
 
@@ -112,7 +126,7 @@ button {
 
 .tel-header:hover,
 .tel-header:focus {
-    color: var(--color-focus-hover)
+    color: var(--color-focus-hover);
 }
 
 /* Hero */
@@ -134,7 +148,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-text-hero);
-    background-color: var(--color-logo-primary)
+    background-color: var(--color-logo-primary);
 }
 
 .button-hero:hover,
@@ -143,7 +157,7 @@ button {
     color: var(--color-text-hero);
 }
 
-/*  feature */
+/*  old title and text */
 .title {
     font-family: 'Roboto';
     font-weight: 500;
@@ -169,8 +183,13 @@ button {
 /*  footer */
 
 /* logo footer */
+
+.ft-bg {
+    background-color: var(--color-text-primary);
+}
+
 .color-web {
-    color: var(--color-logo-primary)
+    color: var(--color-logo-primary);
 }
 
 .footer-logo {
@@ -184,10 +203,33 @@ button {
 
 .footer-logo:hover,
 .footer-logo:focus {
-    color: var(--color-focus-hover)
+    color: var(--color-focus-hover);
 }
 
 .text-footer {
-line-height:1.5;
-color:var(--color-text-footer);
+    line-height: 1.5;
+    color: var(--color-text-footer);
+}
+
+/* Portfoli page 2 */
+
+/* filter */
+.btn-filter {
+    color: var(--color-logo-primary);
+    background-color: var(--color-logo-filter);
+}
+
+.btn-filter:hover,
+.btn-filter:focus,
+.btn-filter:active {
+    color: var(--color-text-hero);
+    background-color: var(--color-focus-hover);
+}
+
+.text-filter {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
