@@ -131,7 +131,6 @@ body {
 }
 
 .btn-hero {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -226,7 +225,6 @@ body {
 }
 
 .text-filter {
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
