@@ -14,7 +14,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
- line-height: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-primary);
 }
@@ -68,7 +68,6 @@ body {
 
 .studio-nav {
   font-weight: 500;
- 
 }
 
 .studio-nav:hover,
@@ -78,7 +77,6 @@ body {
 
 .portfolio-nav {
   font-weight: 500;
- 
 }
 
 .carrent {
@@ -92,7 +90,6 @@ body {
 
 .contacts-nav {
   font-weight: 500;
- 
 }
 
 .contacts-nav:hover,
@@ -103,7 +100,6 @@ body {
 /* top line contacts */
 
 .mailto-header {
- 
   color: var(--color-text-secondary);
 }
 
@@ -113,7 +109,6 @@ body {
 }
 
 .tel-header {
- 
   color: var(--color-text-secondary);
 }
 
@@ -132,7 +127,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
-  letter-spacing: 0.02em;
   color: var(--color-text-hero);
 }
 
@@ -140,7 +134,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
- 
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-text-hero);
   background-color: var(--color-logo-primary);
@@ -161,7 +155,6 @@ body {
 }
 
 .text-feature {
- 
   color: var(--color-text-secondary);
 }
 
@@ -190,7 +183,6 @@ body {
 }
 
 .text-team {
- 
   color: var(--color-text-secondary);
 }
 
@@ -215,7 +207,6 @@ body {
 }
 
 .text-footer {
- 
   color: var(--color-text-footer);
 }
 
@@ -238,7 +229,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
- line-height: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -255,6 +246,5 @@ body {
 }
 
 .project-text {
- 
   color: var(--color-text-secondary);
 }
